@@ -27,21 +27,25 @@ nav {
     padding: 1% 6%;
     justify-content: space-between;
     align-items: center;
+  
 }
 .nav-links {
    flex: 1;
    text-align: right;
+   
 }
 .nav-links ul li {
 list-style: none;
 display: inline-block;
 position: relative;
 padding: 10px 12px;
+
 }
 .nav-links ul li a{
     color: #fff;
     text-decoration: none;
     font-style: 13px;
+  
 }
 .nav-links ul li::after{
     content: '';
@@ -127,6 +131,7 @@ nav .fa{
   color:indigo;
   font-size: 40px;
   font-weight: 800;
+  padding-bottom: 30px;
 
 }
 .course .course-meeting-image{
@@ -134,8 +139,32 @@ nav .fa{
   height: 70vh;
   background-color: aqua;
   width: 100%;
+  margin-right: 1px;
+  margin-left: 1px;
   background-position: center;
-  margin: 13px;
+    background-size: cover;
+    position: relative;
+    border-radius: 7px;
+ 
+}
+
+#schudle-Appointment{
+    position: fixed;
+    top: 50%;
+    right: 0;
+    z-index: 99999;
+}
+#schudle-Appointment a{
+    background-color: #005290;
+    box-sizing: border-box;
+    box-shadow: 0 0 12px rgb(0 0 0 / 50%);
+    color: #fff;
+    display: inline-block;
+    font-size: 14px;
+    font-weight: 700;
+    text-transform: uppercase;
+    writing-mode: vertical-lr;
+    padding: 30px 7px;
 }
 .course .course-meeting-image p{
     color: #fff;
@@ -213,6 +242,11 @@ nav .fa{
     margin: auto;
     text-align: center;
     padding-top: 50px;
+    margin-bottom: 30px;
+}
+.campus p{
+    margin-top: 12px;
+    margin-bottom: 50px;
 }
 .campus-col{
    flex-basis: 42%;
@@ -258,11 +292,23 @@ nav .fa{
 }
 
 /* ..........Facilities........ */
-.facilities img{
-    width: 80%;
-  
+.facilities{
     text-align: center;
-    padding-top: 100px;
+    margin: 88px;
+    padding: 12px;
+}
+/* .facilities img{
+    width: 40%;
+    text-align: center;
+    padding-top: 50px;
+    margin-left: 2px;
+   
+} */
+.facilities-col img{
+    width: 90%;
+    height: 40vh;
+    display: block;
+    margin-right: 9x;
 }
 
 .facilities-col{
